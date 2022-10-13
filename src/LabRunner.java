@@ -28,9 +28,10 @@ public class LabRunner {
         } else {
             System.out.println("String 2 comes first alphabetically.");
         }
+        if (str.indexOf(str2)>0) {
+            System.out.println("The index of your second string is " + str.indexOf(str2));
 
 
-
-
+        }
     }
 }
